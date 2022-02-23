@@ -115,8 +115,8 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Devuelve el objeto
   // Tu código:
   
-  usuario.password = nuevaPassword;
-  return usuario;
+    usuario.password = nuevaPassword;
+    return usuario;
 }
 
 function agregarAmigo(usuario, nuevoAmigo) {
